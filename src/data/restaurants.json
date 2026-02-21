@@ -1,0 +1,166 @@
+[
+  {
+    "id": "shelbys",
+    "name": "Shelby's Shawarma",
+    "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&h=400&fit=crop",
+    "rating": 4.6,
+    "deliveryTime": "25-35 min",
+    "deliveryFee": 2.99,
+    "categories": ["Shawarma", "Middle Eastern", "Wraps"],
+    "menu": [
+      {
+        "id": "chicken-shawarma-wrap",
+        "name": "Chicken Shawarma Wrap",
+        "description": "Marinated chicken, garlic sauce, pickles, tomatoes, wrapped in fresh pita",
+        "price": 12.99,
+        "image": "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "tomatoes", "garlic sauce", "hot sauce", "onions", "lettuce"]
+      },
+      {
+        "id": "beef-shawarma-plate",
+        "name": "Beef Shawarma Plate",
+        "description": "Sliced beef shawarma with rice, hummus, salad, and pickles",
+        "price": 15.99,
+        "image": "https://images.unsplash.com/photo-1644843888702-b tried8d1f9e1?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "hummus", "hot sauce", "onions", "rice"]
+      },
+      {
+        "id": "falafel-wrap",
+        "name": "Falafel Wrap",
+        "description": "Crispy falafel, tahini, pickles, and fresh vegetables",
+        "price": 10.99,
+        "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "tahini", "hot sauce", "onions", "lettuce", "tomatoes"]
+      },
+      {
+        "id": "hummus-plate",
+        "name": "Hummus Plate",
+        "description": "Creamy hummus with warm pita bread and olive oil",
+        "price": 7.99,
+        "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=300&h=200&fit=crop",
+        "modifiers": ["olive oil", "paprika", "pita bread"]
+      }
+    ]
+  },
+  {
+    "id": "beirut-grill",
+    "name": "Beirut Grill",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop",
+    "rating": 4.8,
+    "deliveryTime": "20-30 min",
+    "deliveryFee": 1.99,
+    "categories": ["Lebanese", "Shawarma", "Grilled Meats"],
+    "menu": [
+      {
+        "id": "chicken-shawarma-deluxe",
+        "name": "Chicken Shawarma Deluxe",
+        "description": "Premium chicken shawarma with garlic paste, pickles, and fries inside",
+        "price": 14.99,
+        "image": "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "garlic paste", "fries", "hot sauce", "onions", "tomatoes"]
+      },
+      {
+        "id": "mixed-grill-plate",
+        "name": "Mixed Grill Plate",
+        "description": "Chicken and beef kebabs with rice, grilled vegetables, and hummus",
+        "price": 18.99,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "hummus", "hot sauce", "grilled vegetables", "rice"]
+      },
+      {
+        "id": "lamb-shawarma-wrap",
+        "name": "Lamb Shawarma Wrap",
+        "description": "Tender lamb shawarma with tahini, pickles, and fresh herbs",
+        "price": 16.99,
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "tahini", "hot sauce", "onions", "mint", "parsley"]
+      },
+      {
+        "id": "fattoush-salad",
+        "name": "Fattoush Salad",
+        "description": "Crispy pita chips, mixed greens, sumac dressing",
+        "price": 9.99,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=200&fit=crop",
+        "modifiers": ["pita chips", "sumac dressing", "onions", "tomatoes"]
+      }
+    ]
+  },
+  {
+    "id": "burger-district",
+    "name": "Burger District",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
+    "rating": 4.5,
+    "deliveryTime": "15-25 min",
+    "deliveryFee": 3.49,
+    "categories": ["Burgers", "American", "Fast Food"],
+    "menu": [
+      {
+        "id": "classic-cheeseburger",
+        "name": "Classic Cheeseburger",
+        "description": "Angus beef patty, American cheese, lettuce, tomato, pickles, special sauce",
+        "price": 13.99,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "onions", "lettuce", "tomatoes", "special sauce", "cheese"]
+      },
+      {
+        "id": "chicken-sandwich",
+        "name": "Crispy Chicken Sandwich",
+        "description": "Buttermilk fried chicken, pickles, coleslaw, brioche bun",
+        "price": 12.99,
+        "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "coleslaw", "hot sauce", "onions", "lettuce", "mayo"]
+      },
+      {
+        "id": "double-smashburger",
+        "name": "Double Smashburger",
+        "description": "Two smashed patties, double cheese, caramelized onions, pickles",
+        "price": 16.99,
+        "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=300&h=200&fit=crop",
+        "modifiers": ["pickles", "onions", "cheese", "ketchup", "mustard", "lettuce"]
+      },
+      {
+        "id": "fries",
+        "name": "Seasoned Fries",
+        "description": "Crispy seasoned fries with dipping sauce",
+        "price": 5.99,
+        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300&h=200&fit=crop",
+        "modifiers": ["ketchup", "ranch", "hot sauce"]
+      }
+    ]
+  },
+  {
+    "id": "thai-orchid",
+    "name": "Thai Orchid",
+    "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+    "rating": 4.7,
+    "deliveryTime": "30-40 min",
+    "deliveryFee": 2.49,
+    "categories": ["Thai", "Asian", "Noodles"],
+    "menu": [
+      {
+        "id": "pad-thai",
+        "name": "Pad Thai",
+        "description": "Rice noodles, shrimp, peanuts, bean sprouts, lime",
+        "price": 14.99,
+        "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=300&h=200&fit=crop",
+        "modifiers": ["peanuts", "bean sprouts", "lime", "chili flakes", "extra shrimp"]
+      },
+      {
+        "id": "green-curry",
+        "name": "Green Curry",
+        "description": "Coconut milk green curry with chicken, bamboo shoots, Thai basil",
+        "price": 15.99,
+        "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=300&h=200&fit=crop",
+        "modifiers": ["extra spicy", "tofu substitute", "brown rice", "white rice"]
+      },
+      {
+        "id": "mango-sticky-rice",
+        "name": "Mango Sticky Rice",
+        "description": "Sweet sticky rice with fresh mango and coconut cream",
+        "price": 8.99,
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=200&fit=crop",
+        "modifiers": ["extra coconut cream"]
+      }
+    ]
+  }
+]

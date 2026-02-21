@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --uber-black: #000000;
+  --uber-green: #06C167;
+  --uber-gray: #545454;
+  --uber-light-gray: #F6F6F6;
+  --uber-white: #FFFFFF;
+}
+
+body {
+  font-family: "UberMove", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: var(--uber-white);
+  color: var(--uber-black);
+}
+
+@keyframes pulse-mic {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.8; }
+}
+
+.mic-active {
+  animation: pulse-mic 1.2s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out;
+}
+
+@keyframes spinner {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinner 1.5s linear infinite;
+}
